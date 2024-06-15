@@ -24,11 +24,11 @@
 
 4. To Create file
 
-     touch <file name>
+     touch < file name >
      
-     vi <file name>
+     vi < file name >
      
-     vim <file name>
+     vim < file name >
 
 5. delete files
    
@@ -66,11 +66,26 @@
 
      The grep filter searches a file for a particular pattern of characters and displays all lines that contain that pattern.
 
-    ps -ef | grep “anything u want to print”
+    ps -ef | grep “anything you want to print”
 
- note-> | -pipe command
+ note-> | pipe command
  What ever output is giving in first command, its input to second command 
 
+14. list the file
+
+     ls
+
+15. view the content of file
+  
+    cat < file name >
+
+16. copy content of one file to another file
+
+    cp < file name1 > < file name2 >
+
+    note: file one having content which you want copy to a file 2
+
+    
 
 
 
