@@ -62,15 +62,11 @@
 
      ps -ef
 
-13.To print particular data in process. (grep)
+13.To print particular data
 
      The grep filter searches a file for a particular pattern of characters and displays all lines that contain that pattern.
-
-    ps -ef | grep “anything you want to print”
-
- note-> | pipe command
- What ever output is giving in first command, its input to second command 
-
+     grap <put the word> <filename> 
+   
 14. list the file
 
      ls
