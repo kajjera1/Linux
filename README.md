@@ -24,15 +24,15 @@
 
 4. To Create file
 
-     touch < file name >
+     touch < filename > 
      
-     vi < file name >
+     vi < filename > 
      
-     vim < file name >
+     vim < filename > 
 
 5. delete files
    
-     $rm –f  filename 
+     rm –f  filename 
      
 6. delete directory
    
@@ -77,17 +77,29 @@
 
 15. view the content of file
   
-    cat < file name >
+    cat < filename > 
 
 16. copy content of one file to another file
 
-    cp < file name1 > < file name2 >
+    cp < filename1 > < file name2 >
 
     note: file one having content which you want copy to a file 2
 
+17. create multiple file
+
+    touch file {1..10}
     
+18. print starting 10 line of file
 
+    head < filename > 
 
+19. print bottom 10 line of file
+
+    tail < filename >
+
+20. count the line word charcters
+
+    wc < filename > 
 
 
 
