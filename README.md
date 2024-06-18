@@ -5,7 +5,7 @@
 # Basic commands in Linux
 1. check IP address of server
    
-    hostname -i
+     hostname -i
    
     ifconfig
    
